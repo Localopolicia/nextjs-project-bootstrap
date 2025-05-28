@@ -1,0 +1,314 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/ClickerGame.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.ClickerGame_container__q__Ux {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a237e, #283593, #3949ab);
+  color: white;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ClickerGame_starsPattern__D7SzQ {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, white, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 40px 70px, #E3F2FD, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 50px 160px, #90CAF9, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 90px 40px, white, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 130px 80px, #E3F2FD, rgba(0,0,0,0)),
+    radial-gradient(3px 3px at 160px 120px, #90CAF9, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  opacity: 0.4;
+  animation: ClickerGame_twinkle__4pltM 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.ClickerGame_content__DS8mk {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 56rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.ClickerGame_title__TIS37 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 20px rgba(130,177,255,0.5);
+  animation: ClickerGame_float__DuXtj 6s ease-in-out infinite;
+  text-align: center;
+  line-height: 1.2;
+  background: linear-gradient(45deg, #ffffff, #82B1FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ClickerGame_clickButton__0U9es {
+  padding: 2rem 4rem;
+  background: linear-gradient(45deg, #00B0FF, #2979FF);
+  color: white;
+  border-radius: 9999px;
+  box-shadow: 0 0 20px rgba(0,176,255,0.5);
+  border: 4px solid rgba(255,255,255,0.8);
+  font-weight: bold;
+  font-size: 2rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+  cursor: pointer;
+  outline: none;
+}
+
+.ClickerGame_clickButton__0U9es:hover {
+  background: linear-gradient(45deg, #00B0FF, #2962FF);
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0,176,255,0.7);
+}
+
+.ClickerGame_clickButton__0U9es:active {
+  transform: scale(0.95);
+}
+
+.ClickerGame_clickButtonActive__Rpd_Q {
+  animation: ClickerGame_pulse__k5XMX 2s infinite;
+  box-shadow: 0 0 40px rgba(130,177,255,0.8);
+  border-color: #82B1FF;
+  background: linear-gradient(45deg, #2979FF, #2962FF);
+}
+
+.ClickerGame_points__1uFeK {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 0 0 20px rgba(130,177,255,0.5);
+  animation: ClickerGame_pulse__k5XMX 2s infinite;
+  color: #ffffff;
+}
+
+.ClickerGame_combo__oJ1Xg {
+  margin-top: 1rem;
+  font-size: 1.75rem;
+  color: #82B1FF;
+  text-shadow: 0 0 20px rgba(130,177,255,0.5);
+  animation: ClickerGame_bounce__UfYAg 2s infinite;
+  font-weight: 600;
+}
+
+.ClickerGame_charactersContainer__SrvQ1 {
+  margin-top: 3rem;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  border: 2px solid rgba(255,255,255,0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.ClickerGame_charactersTitle__DoH69 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 20px rgba(130,177,255,0.5);
+  background: linear-gradient(45deg, #ffffff, #82B1FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ClickerGame_charactersGrid__m1dqQ {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .ClickerGame_charactersGrid__m1dqQ {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.ClickerGame_characterCard__8bf8g {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 2px solid;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background: rgba(255,255,255,0.05);
+}
+
+.ClickerGame_characterCardPurchased__kO0pR {
+  background: rgba(255,255,255,0.1);
+  border-color: #82B1FF;
+  box-shadow: 0 0 20px rgba(130,177,255,0.3);
+}
+
+.ClickerGame_characterCardAvailable__YNlw3 {
+  background: rgba(255,255,255,0.05);
+  border-color: #448AFF;
+  cursor: pointer;
+}
+
+.ClickerGame_characterCardAvailable__YNlw3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.ClickerGame_characterCardLocked__dd3eJ {
+  background: rgba(255,255,255,0.02);
+  border-color: rgba(255,255,255,0.1);
+  opacity: 0.5;
+}
+
+.ClickerGame_characterContent__1z_Bs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ClickerGame_characterInfo__J4Cev {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+.ClickerGame_characterEmoji__3CmOL {
+  font-size: 3.5rem;
+  filter: drop-shadow(0 0 10px rgba(130,177,255,0.5));
+}
+
+.ClickerGame_characterName__GJBf7 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(130,177,255,0.5);
+  background: linear-gradient(45deg, #ffffff, #82B1FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ClickerGame_characterDescription__W_xkO {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin: 0.25rem 0;
+  color: #E3F2FD;
+}
+
+.ClickerGame_characterMultiplier__aTBGv {
+  font-size: 0.875rem;
+  color: #82B1FF;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.ClickerGame_characterCost___HAF5 {
+  text-align: right;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(130,177,255,0.5);
+}
+
+.ClickerGame_characterCostPurchased__vFokv {
+  color: #82B1FF;
+}
+
+@keyframes ClickerGame_twinkle__4pltM {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes ClickerGame_float__DuXtj {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes ClickerGame_pulse__k5XMX {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.9; }
+}
+
+@keyframes ClickerGame_bounce__UfYAg {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes ClickerGame_spin__jKnLq {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ClickerGame_animateBounce__TCFQH {
+  animation: ClickerGame_bounce__UfYAg 2s infinite;
+}
+
+.ClickerGame_animateSpin__ccyfg {
+  animation: ClickerGame_spin__jKnLq 4s linear infinite;
+}
+
+.ClickerGame_animateFloat__0ILZe {
+  animation: ClickerGame_float__DuXtj 6s ease-in-out infinite;
+}
+
+.ClickerGame_animatePulse__3aqjL {
+  animation: ClickerGame_pulse__k5XMX 2s infinite;
+}
+
+@media (max-width: 640px) {
+  .ClickerGame_title__TIS37 {
+    font-size: 3rem;
+  }
+
+  .ClickerGame_clickButton__0U9es {
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+  }
+
+  .ClickerGame_points__1uFeK {
+    font-size: 2.5rem;
+  }
+
+  .ClickerGame_combo__oJ1Xg {
+    font-size: 1.5rem;
+  }
+
+  .ClickerGame_charactersTitle__DoH69 {
+    font-size: 2rem;
+  }
+
+  .ClickerGame_characterInfo__J4Cev {
+    gap: 1rem;
+  }
+
+  .ClickerGame_characterEmoji__3CmOL {
+    font-size: 3rem;
+  }
+
+  .ClickerGame_characterName__GJBf7 {
+    font-size: 1.25rem;
+  }
+
+  .ClickerGame_characterDescription__W_xkO {
+    font-size: 0.875rem;
+  }
+}
+
